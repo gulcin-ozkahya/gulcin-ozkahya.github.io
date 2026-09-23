@@ -3,48 +3,78 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="YDS ve YÖKDİL Çalışma uygulamasının gizlilik politikası.">
-  <title>YDS - YÖKDİL Çalışma Gizlilik Politikası</title>
+  <meta name="description" content="YDS - YÖKDİL Çalışma uygulamasının gizlilik politikası.">
+  <title>Gizlilik Politikası | YDS - YÖKDİL Çalışma</title>
   <style>
-    :root { color-scheme: light dark; font-family: system-ui, sans-serif; }
+    :root { color-scheme: light dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+    * { box-sizing: border-box; }
     body { margin: 0; color: #18221d; background: #f7f9f8; }
-    main { width: min(720px, calc(100% - 40px)); margin: 48px auto; }
-    h1 { font-size: 2rem; line-height: 1.2; }
+    header, main, footer { width: min(760px, calc(100% - 40px)); margin-inline: auto; }
+    header { padding: 28px 0 12px; border-bottom: 1px solid #d8e1dc; }
+    nav { display: flex; flex-wrap: wrap; gap: 18px; }
+    main { padding: 32px 0 48px; }
+    footer { padding: 22px 0 36px; border-top: 1px solid #d8e1dc; color: #53635a; }
+    h1 { margin: 0 0 8px; font-size: 2rem; line-height: 1.2; }
     h2 { margin-top: 2rem; font-size: 1.25rem; }
-    p { line-height: 1.65; }
+    p, li { line-height: 1.65; }
     a { color: #166a4a; }
     .meta { color: #53635a; }
     @media (prefers-color-scheme: dark) {
       body { color: #eef4f0; background: #121714; }
+      header, footer { border-color: #34423a; }
       a { color: #78d6ad; }
-      .meta { color: #b4c1b9; }
+      .meta, footer { color: #b4c1b9; }
     }
   </style>
 </head>
 <body>
+  <header>
+    <nav aria-label="Yasal ve destek bağlantıları">
+      <a href="../privacy/" aria-current="page">Gizlilik</a>
+      <a href="../terms/">Kullanım Şartları</a>
+      <a href="../support/">Destek</a>
+    </nav>
+  </header>
   <main>
-    <h1>YDS - YÖKDİL Çalışma Gizlilik Politikası</h1>
-    <p class="meta">Son güncelleme: 16 Eylül 2026</p>
-    <p>YDS - YÖKDİL Çalışma, kullanıcı hesabı oluşturmaz ve mevcut sürümünde kişisel veri, reklam kimliği, konum, kişi, fotoğraf, kamera veya mikrofon verisi toplamaz. Uygulama reklam, analiz veya üçüncü taraf izleme SDK'sı içermez.</p>
+    <h1>Gizlilik Politikası</h1>
+    <p class="meta">YDS - YÖKDİL Çalışma · Son güncelleme: 23 Eylül 2026</p>
+    <p>Bu politika, YDS - YÖKDİL Çalışma mobil uygulamasında hangi bilgilerin neden işlendiğini açıklar. Uygulama kullanıcı hesabı oluşturmaz. Ad, e-posta adresi, kişi listesi, fotoğraf, kamera veya mikrofon erişimi istemez.</p>
 
-    <h2>Cihazda saklanan bilgiler</h2>
-    <p>Çalışma hedefleri, soru cevapları, kelime değerlendirmeleri, tekrar tarihleri ve uygulama tercihleri yalnızca kullanıcının cihazındaki yerel uygulama alanında saklanır. Bu bilgiler geliştiricinin sunucularına gönderilmez ve üçüncü taraflarla paylaşılmaz.</p>
+    <h2>Cihazda tutulan çalışma verileri</h2>
+    <p>Çalışma hedefleri, soru cevapları, doğru ve yanlış sonuçları, kaydedilen sorular, kelime değerlendirmeleri, tekrar tarihleri ve uygulama tercihleri cihazdaki yerel veritabanında tutulur. Bu çalışma kayıtları geliştiriciye, RevenueCat'e veya Google'a gönderilmez. Uygulama kaldırıldığında ya da uygulama verileri temizlendiğinde bu yerel kayıtlar silinebilir.</p>
 
-    <h2>Saklama ve silme</h2>
-    <p>Yerel kayıtlar kullanıcı uygulama verilerini temizleyene veya uygulamayı kaldırana kadar cihazda kalır. Android'de Ayarlar &gt; Uygulamalar &gt; YDS - YÖKDİL Çalışma &gt; Depolama &gt; Verileri temizle adımları kullanılabilir. Uygulamanın sunucusunda hesap veya kullanıcı kaydı bulunmadığından ayrıca silme talebi gerektiren sunucu verisi yoktur.</p>
+    <h2>Uzak içerik güncellemeleri</h2>
+    <p>Uygulama, yeni veya düzeltilmiş soru paketlerini HTTPS üzerinden GitHub Pages altyapısından kontrol edebilir. Bu istek sırasında IP adresi, cihazın bağlantı bilgileri ve standart teknik günlük verileri barındırma sağlayıcısı tarafından işlenebilir. Çalışma geçmişi bu isteğe eklenmez.</p>
 
-    <h2>Güvenlik ve yedekleme</h2>
-    <p>Uygulama verileri Android'in uygulamaya özel yerel alanında tutulur. Android release yapılandırmasında uygulama yedeklemesi kapalıdır. Cihazın, işletim sisteminin veya kullanıcının kendi güvenlik önlemlerinden geliştirici sorumlu değildir.</p>
+    <h2>Premium satın alımlar ve RevenueCat</h2>
+    <p>Premium ürünlerini göstermek, satın alımları doğrulamak, geri yüklemek ve Premium erişimini yönetmek için Apple App Store veya Google Play ile <a href="https://www.revenuecat.com/privacy/">RevenueCat</a> kullanılır. RevenueCat anonim bir müşteri referansını, satın alınan ürünü, satın alma zamanını, abonelik durumunu, mağaza makbuzunu veya satın alma belirtecini ve hizmet için gerekli sınırlı teknik bilgileri işleyebilir.</p>
+    <p>Uygulama RevenueCat'e ad, e-posta adresi veya uygulama hesabı göndermez. Kart ve banka bilgileri uygulama tarafından alınmaz; ödemeler mağaza tarafından işlenir.</p>
+
+    <h2>Ödüllü reklamlar, UMP ve ATT</h2>
+    <p>Ücretsiz kullanıcılar, ek soru hakkı kazanmak için kendi seçimleriyle Google AdMob üzerinden ödüllü reklam izleyebilir. Premium kullanıcılar için reklam istenmez veya gösterilmez. Google User Messaging Platform (UMP), gerekli bölgelerde reklam izni ve gizlilik tercihlerini yönetir.</p>
+    <p>iOS ve iPadOS'ta App Tracking Transparency (ATT) izni ayrıca istenir. İzin verilirse cihazın reklam tanımlayıcısı, kişiselleştirilmiş reklam ve reklam ölçümü amacıyla Google tarafından kullanılabilir. İzin verilmezse Google Mobile Ads reklam isteğinde IDFA göndermez; kullanıcı uygulamayı ve uygun olduğunda ödüllü reklamları kullanmaya devam edebilir.</p>
+    <p>Google reklam hizmetleri; IP adresinden türetilen yaklaşık konum, cihaz veya uygulama tanımlayıcıları, reklam verileri, reklam ve ürün etkileşimleri, çökme, performans ve diğer tanılama verilerini reklam sunumu, ölçüm, analiz ve sahteciliği önleme amaçlarıyla işleyebilir. Ayrıntılar için <a href="https://policies.google.com/privacy">Google Gizlilik Politikası</a> incelenebilir.</p>
+
+    <h2>İzinleri ve aboneliği yönetme</h2>
+    <ul>
+      <li>Gerekli olduğunda reklam izinleri uygulamadaki Ayarlar &gt; Reklam gizlilik tercihleri bölümünden değiştirilebilir.</li>
+      <li>ATT seçimi iOS/iPadOS Ayarlar &gt; Gizlilik ve Güvenlik &gt; Takip bölümünden değiştirilebilir.</li>
+      <li>Abonelik ve otomatik yenileme App Store veya Google Play hesap ayarlarından yönetilebilir.</li>
+    </ul>
+
+    <h2>Saklama, güvenlik ve uluslararası aktarım</h2>
+    <p>Yerel çalışma kayıtları cihazda kalır. RevenueCat tarafından işlenen satın alma verileri ile Google tarafından işlenen reklam verileri ilgili hizmetlerin saklama politikalarına tabidir ve farklı ülkelerde işlenebilir. Ağ iletişimleri HTTPS üzerinden yapılır.</p>
+
+    <h2>Silme talepleri</h2>
+    <p>Yerel çalışma verileri uygulama kaldırılarak veya uygulama verileri temizlenerek silinebilir. RevenueCat'te işlenen anonim satın alma verileriyle ilgili talepler için uygulamadaki Ayarlar &gt; Gizlilik ve veriler bölümünde yer alan satın alma referansı ile <a href="mailto:destek.ydscalisma@gmail.com">destek.ydscalisma@gmail.com</a> adresine yazılabilir. Mağazaların yasal ve finansal kayıtları kendi politikalarına tabidir.</p>
 
     <h2>Çocukların gizliliği</h2>
-    <p>Uygulama özellikle 13 yaşından küçük çocuklar için tasarlanmamıştır ve çocuklardan bilerek kişisel veri toplamaz.</p>
+    <p>Uygulama 13 yaşından küçük çocuklara yönelik değildir ve 13 yaşından küçük çocuklardan bilerek kişisel veri toplamaz.</p>
 
-    <h2>Gelecekteki özellikler</h2>
-    <p>Hesap, bulut eşitleme, analiz, reklam, ödeme veya çevrimiçi destek özelliği eklenirse bu politika ve Google Play Veri Güvenliği beyanı özellik kullanıma sunulmadan önce güncellenir.</p>
-
-    <h2>İletişim</h2>
-    <p>Bu politika hakkındaki sorular için <a href="mailto:destek.ydscalisma@gmail.com">destek.ydscalisma@gmail.com</a> adresini kullanabilirsiniz.</p>
+    <h2>İletişim ve değişiklikler</h2>
+    <p>Gizlilik soruları için <a href="mailto:destek.ydscalisma@gmail.com">destek.ydscalisma@gmail.com</a> adresini veya <a href="../support/">Destek sayfasını</a> kullanabilirsiniz. Politika değiştiğinde bu sayfadaki güncelleme tarihi yenilenir.</p>
     <p>YDS - YÖKDİL Çalışma, ÖSYM'nin resmî uygulaması değildir ve ÖSYM ile kurumsal bağlantısı yoktur.</p>
   </main>
+  <footer>YDS - YÖKDİL Çalışma</footer>
 </body>
 </html>
