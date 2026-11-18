@@ -1,0 +1,150 @@
+{
+  "schemaVersion": 1,
+  "updatedAt": "2026-11-18",
+  "decks": [
+    {
+      "id": "gta_universe",
+      "order": 0,
+      "isFree": false,
+      "icon": "🌴",
+      "category": "gaming",
+      "badge": "hot"
+    },
+    {
+      "id": "objects",
+      "order": 10,
+      "isFree": true,
+      "icon": "☕",
+      "category": "classics",
+      "badge": null
+    },
+    {
+      "id": "actions",
+      "order": 20,
+      "isFree": true,
+      "icon": "💃",
+      "category": "classics",
+      "badge": null
+    },
+    {
+      "id": "food_cravings",
+      "order": 30,
+      "isFree": true,
+      "icon": "🍕",
+      "category": "classics",
+      "badge": null
+    },
+    {
+      "id": "football_stars",
+      "order": 40,
+      "isFree": false,
+      "icon": "⚽",
+      "category": "sports",
+      "badge": "new"
+    },
+    {
+      "id": "music_pop_stars",
+      "order": 50,
+      "isFree": false,
+      "icon": "🎧",
+      "category": "pop_culture",
+      "badge": "new"
+    },
+    {
+      "id": "animals_nature",
+      "order": 60,
+      "isFree": false,
+      "icon": "🦁",
+      "category": "classics",
+      "badge": "new"
+    },
+    {
+      "id": "sports_athletes",
+      "order": 70,
+      "isFree": false,
+      "icon": "🏀",
+      "category": "sports",
+      "badge": "new"
+    },
+    {
+      "id": "anime",
+      "order": 80,
+      "isFree": false,
+      "icon": "🍥",
+      "category": "pop_culture",
+      "badge": null
+    },
+    {
+      "id": "gaming",
+      "order": 90,
+      "isFree": false,
+      "icon": "🎮",
+      "category": "gaming",
+      "badge": null
+    },
+    {
+      "id": "kpop",
+      "order": 100,
+      "isFree": false,
+      "icon": "🎤",
+      "category": "pop_culture",
+      "badge": null
+    },
+    {
+      "id": "tv_characters",
+      "order": 110,
+      "isFree": false,
+      "icon": "📺",
+      "category": "pop_culture",
+      "badge": null
+    },
+    {
+      "id": "movies_characters",
+      "order": 120,
+      "isFree": false,
+      "icon": "🍿",
+      "category": "pop_culture",
+      "badge": null
+    },
+    {
+      "id": "red_flags_icks",
+      "order": 130,
+      "isFree": false,
+      "icon": "flag",
+      "category": "party",
+      "badge": null
+    },
+    {
+      "id": "internet",
+      "order": 140,
+      "isFree": false,
+      "icon": "🌐",
+      "category": "party",
+      "badge": null
+    },
+    {
+      "id": "awkward_situations",
+      "order": 150,
+      "isFree": false,
+      "icon": "emoji_emotions",
+      "category": "party",
+      "badge": null
+    },
+    {
+      "id": "vine_era",
+      "order": 160,
+      "isFree": false,
+      "icon": "history",
+      "category": "pop_culture",
+      "badge": null
+    },
+    {
+      "id": "corporate_survival",
+      "order": 170,
+      "isFree": false,
+      "icon": "laptop_mac",
+      "category": "party",
+      "badge": null
+    }
+  ]
+}
