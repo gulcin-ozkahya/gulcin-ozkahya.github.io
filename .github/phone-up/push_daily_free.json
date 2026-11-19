@@ -1,0 +1,136 @@
+{
+  "topics": {
+    "en": "phone_up_news_en",
+    "es": "phone_up_news_es",
+    "pt": "phone_up_news_pt",
+    "fr": "phone_up_news_fr"
+  },
+  "messages": {
+    "en": [
+      "🎁 Free today: {title}",
+      "Unlocked for everyone until midnight (UTC). Grab your crew!"
+    ],
+    "es": [
+      "🎁 Gratis hoy: {title}",
+      "Desbloqueado para todos hasta medianoche (UTC). ¡Reúne a tu grupo!"
+    ],
+    "pt": [
+      "🎁 Grátis hoje: {title}",
+      "Liberado para todos até a meia-noite (UTC). Chame a galera!"
+    ],
+    "fr": [
+      "🎁 Gratuit aujourd’hui : {title}",
+      "Débloqué pour tous jusqu’à minuit (UTC). Rassemble ta bande !"
+    ]
+  },
+  "titles": {
+    "objects": {
+      "en": "Everyday Objects",
+      "es": "Objetos cotidianos",
+      "pt": "Objetos do dia a dia",
+      "fr": "Objets du quotidien"
+    },
+    "actions": {
+      "en": "Basic Actions",
+      "es": "Acciones básicas",
+      "pt": "Ações básicas",
+      "fr": "Actions simples"
+    },
+    "anime": {
+      "en": "Anime & Manga",
+      "es": "Anime y manga",
+      "pt": "Anime e mangá",
+      "fr": "Anime et manga"
+    },
+    "internet": {
+      "en": "Internet Life",
+      "es": "Vida en Internet",
+      "pt": "Vida na internet",
+      "fr": "La vie sur Internet"
+    },
+    "gaming": {
+      "en": "Global Gaming",
+      "es": "Mundo de los videojuegos",
+      "pt": "Mundo dos games",
+      "fr": "L’univers du jeu vidéo"
+    },
+    "kpop": {
+      "en": "K-Pop Universe",
+      "es": "Universo K-pop",
+      "pt": "Universo K-pop",
+      "fr": "Univers K-pop"
+    },
+    "red_flags_icks": {
+      "en": "Red Flags & Icks",
+      "es": "Señales de alerta y manías",
+      "pt": "Sinais de alerta e ranços",
+      "fr": "Signaux d’alerte et tue-l’amour"
+    },
+    "vine_era": {
+      "en": "Vine Era & 2010s Nostalgia",
+      "es": "Vine y nostalgia de los 2010",
+      "pt": "Vine e nostalgia dos anos 2010",
+      "fr": "Vine et nostalgie des années 2010"
+    },
+    "awkward_situations": {
+      "en": "Awkward Situations",
+      "es": "Situaciones incómodas",
+      "pt": "Situações constrangedoras",
+      "fr": "Situations gênantes"
+    },
+    "corporate_survival": {
+      "en": "Office Life & Work From Home",
+      "es": "Oficina y teletrabajo",
+      "pt": "Escritório e trabalho em casa",
+      "fr": "Bureau et télétravail"
+    },
+    "food_cravings": {
+      "en": "Food & Cravings",
+      "es": "Comida y antojos",
+      "pt": "Comidas e desejos",
+      "fr": "Saveurs et gourmandises"
+    },
+    "tv_characters": {
+      "en": "TV Shows & Characters",
+      "es": "Series y personajes",
+      "pt": "Séries e personagens",
+      "fr": "Séries et personnages"
+    },
+    "movies_characters": {
+      "en": "Movies & Characters",
+      "es": "Películas y personajes",
+      "pt": "Filmes e personagens",
+      "fr": "Films et personnages"
+    },
+    "gta_universe": {
+      "en": "Vice City Nights",
+      "es": "Vice City Nights",
+      "pt": "Vice City Nights",
+      "fr": "Vice City Nights"
+    },
+    "football_stars": {
+      "en": "Football Stars & Legends",
+      "es": "Estrellas y leyendas del fútbol",
+      "pt": "Craques e lendas do futebol",
+      "fr": "Stars et légendes du foot"
+    },
+    "music_pop_stars": {
+      "en": "Music & Pop Stars",
+      "es": "Música y estrellas del pop",
+      "pt": "Música e estrelas do pop",
+      "fr": "Musique et stars de la pop"
+    },
+    "animals_nature": {
+      "en": "Animals & Nature",
+      "es": "Animales y naturaleza",
+      "pt": "Animais e natureza",
+      "fr": "Animaux et nature"
+    },
+    "sports_athletes": {
+      "en": "Sports & Athletes",
+      "es": "Deportes y atletas",
+      "pt": "Esportes e atletas",
+      "fr": "Sports et athlètes"
+    }
+  }
+}

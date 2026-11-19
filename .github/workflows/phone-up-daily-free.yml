@@ -1,0 +1,28 @@
+name: Phone Up daily free deck push
+
+on:
+  schedule:
+    - cron: '0 15 * * *'   # 15:00 UTC = 18:00 TR, 16:00 FR/ES, 12:00 BR, 10:00 New York
+  workflow_dispatch:
+    inputs:
+      dry_run:
+        description: 'Only print the messages'
+        type: boolean
+        default: true
+
+jobs:
+  send:
+    # Turn on with repository variable PHONE_UP_DAILY_PUSH = on
+    # (only after the app version with "free today" support is live).
+    if: vars.PHONE_UP_DAILY_PUSH == 'on' || github.event_name == 'workflow_dispatch'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install google-auth requests
+      - run: python .github/phone-up/send_daily_free.py
+        env:
+          FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+          DRY_RUN: ${{ (github.event_name == 'workflow_dispatch' && inputs.dry_run) && '1' || '0' }}
